@@ -1,7 +1,7 @@
 import React,{ useState, useEffect } from 'react'
 import { Cell, Legend, Pie, PieChart, ResponsiveContainer } from 'recharts';
 import axios from 'axios';
-// axios.defaults.baseURL = 'http://localhost:3000'
+// axios.defaults.baseURL = 'https://admin-dashboard-backend-production-1f5a.up.railway.app'
 import { CircularProgress } from '@mui/joy';
 
 const RADIAN = Math.PI / 180;

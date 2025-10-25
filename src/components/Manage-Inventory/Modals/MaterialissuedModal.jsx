@@ -14,7 +14,7 @@ import {
 import { Button } from '@/components/ui/button'
 import { useHref, useLoaderData, useNavigate , Form, useOutletContext, useParams} from 'react-router-dom'
 import axios from 'axios'
-// axios.defaults.baseURL = 'http://localhost:3000'
+// axios.defaults.baseURL = 'https://admin-dashboard-backend-production-1f5a.up.railway.app'
 
 function InventoryModal() {
     const href = useHref()
